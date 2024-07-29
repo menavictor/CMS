@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NmYqez6YZGzVRCZ5z7KTtM4dUiXlda/vvtVUQroIYWMpBFjH1ZOVgNq7qB1WWhSdRWECBjZiYDrbXDWIG+7Xlw==",
+  "dgSpecHash": "wkedfWBiz3QlzUKEbtg4zvHdvVv2SXmNZ2N7sDEJshy/9fzrKZmgQTH3LBDubheFNtfB2uO4BvSvdcJBQDe55w==",
   "success": true,
-  "projectFilePath": "D:\\work\\Thiqah\\CMS\\CMS.Domain\\CMS.Domain.csproj",
+  "projectFilePath": "D:\\work\\Thiqah\\CMSWebsite\\CMS.Domain\\CMS.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.5\\microsoft.entityframeworkcore.8.0.5.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.5\\microsoft.entityframeworkcore.abstractions.8.0.5.nupkg.sha512",

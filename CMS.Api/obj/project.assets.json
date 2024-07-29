@@ -8693,11 +8693,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\work\\Thiqah\\CMS\\CMS.Api\\CMS.Api.csproj",
+      "projectUniqueName": "D:\\work\\Thiqah\\CMSWebsite\\CMS.Api\\CMS.Api.csproj",
       "projectName": "CMS.Api",
-      "projectPath": "D:\\work\\Thiqah\\CMS\\CMS.Api\\CMS.Api.csproj",
+      "projectPath": "D:\\work\\Thiqah\\CMSWebsite\\CMS.Api\\CMS.Api.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "D:\\work\\Thiqah\\CMS\\CMS.Api\\obj\\",
+      "outputPath": "D:\\work\\Thiqah\\CMSWebsite\\CMS.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8714,11 +8714,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\work\\Thiqah\\CMS\\CMS.Application\\CMS.Application.csproj": {
-              "projectPath": "D:\\work\\Thiqah\\CMS\\CMS.Application\\CMS.Application.csproj"
+            "D:\\work\\Thiqah\\CMSWebsite\\CMS.Application\\CMS.Application.csproj": {
+              "projectPath": "D:\\work\\Thiqah\\CMSWebsite\\CMS.Application\\CMS.Application.csproj"
             },
-            "D:\\work\\Thiqah\\CMS\\CMS.Infrastructure\\CMS.Infrastructure.csproj": {
-              "projectPath": "D:\\work\\Thiqah\\CMS\\CMS.Infrastructure\\CMS.Infrastructure.csproj"
+            "D:\\work\\Thiqah\\CMSWebsite\\CMS.Infrastructure\\CMS.Infrastructure.csproj": {
+              "projectPath": "D:\\work\\Thiqah\\CMSWebsite\\CMS.Infrastructure\\CMS.Infrastructure.csproj"
             }
           }
         }

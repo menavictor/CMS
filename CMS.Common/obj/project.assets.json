@@ -8629,11 +8629,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\work\\Thiqah\\CMS\\CMS.Common\\CMS.Common.csproj",
+      "projectUniqueName": "D:\\work\\Thiqah\\CMSWebsite\\CMS.Common\\CMS.Common.csproj",
       "projectName": "CMS.Common",
-      "projectPath": "D:\\work\\Thiqah\\CMS\\CMS.Common\\CMS.Common.csproj",
+      "projectPath": "D:\\work\\Thiqah\\CMSWebsite\\CMS.Common\\CMS.Common.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "D:\\work\\Thiqah\\CMS\\CMS.Common\\obj\\",
+      "outputPath": "D:\\work\\Thiqah\\CMSWebsite\\CMS.Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8650,8 +8650,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\work\\Thiqah\\CMS\\CMS.Domain\\CMS.Domain.csproj": {
-              "projectPath": "D:\\work\\Thiqah\\CMS\\CMS.Domain\\CMS.Domain.csproj"
+            "D:\\work\\Thiqah\\CMSWebsite\\CMS.Domain\\CMS.Domain.csproj": {
+              "projectPath": "D:\\work\\Thiqah\\CMSWebsite\\CMS.Domain\\CMS.Domain.csproj"
             }
           }
         }

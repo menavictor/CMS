@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WTLYR5pbOUzSzeJo3BttILRTdsNdIblTC6tqkiLzz6RCak+73zN8bcd/15R7XI9yctZEs+DGwxVIbl0pHCquOQ==",
+  "dgSpecHash": "jPdwiy0NIt29ibnkjucWSvISpUjqXLHSx6l8pZgMp7wYP5D4iA1gfXl2FLRFQYHPpl/ko8tVsvKj/MVdOLoWkg==",
   "success": true,
-  "projectFilePath": "D:\\work\\Thiqah\\CMS\\CMS.Infrastructure\\CMS.Infrastructure.csproj",
+  "projectFilePath": "D:\\work\\Thiqah\\CMSWebsite\\CMS.Infrastructure\\CMS.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\asp.versioning.abstractions\\8.1.0\\asp.versioning.abstractions.8.1.0.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\asp.versioning.http\\8.1.0\\asp.versioning.http.8.1.0.nupkg.sha512",

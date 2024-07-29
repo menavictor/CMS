@@ -11,3 +11,16 @@ D:\work\Thiqah\CMS\CMS.Domain\obj\Debug\net8.0\CMS.Domain.dll
 D:\work\Thiqah\CMS\CMS.Domain\obj\Debug\net8.0\refint\CMS.Domain.dll
 D:\work\Thiqah\CMS\CMS.Domain\obj\Debug\net8.0\CMS.Domain.pdb
 D:\work\Thiqah\CMS\CMS.Domain\obj\Debug\net8.0\ref\CMS.Domain.dll
+D:\work\Thiqah\CMSWebsite\CMS.Domain\bin\Debug\net8.0\CMS.Domain.deps.json
+D:\work\Thiqah\CMSWebsite\CMS.Domain\bin\Debug\net8.0\CMS.Domain.dll
+D:\work\Thiqah\CMSWebsite\CMS.Domain\bin\Debug\net8.0\CMS.Domain.pdb
+D:\work\Thiqah\CMSWebsite\CMS.Domain\obj\Debug\net8.0\CMS.Domain.csproj.AssemblyReference.cache
+D:\work\Thiqah\CMSWebsite\CMS.Domain\obj\Debug\net8.0\CMS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\Thiqah\CMSWebsite\CMS.Domain\obj\Debug\net8.0\CMS.Domain.AssemblyInfoInputs.cache
+D:\work\Thiqah\CMSWebsite\CMS.Domain\obj\Debug\net8.0\CMS.Domain.AssemblyInfo.cs
+D:\work\Thiqah\CMSWebsite\CMS.Domain\obj\Debug\net8.0\CMS.Domain.csproj.CoreCompileInputs.cache
+D:\work\Thiqah\CMSWebsite\CMS.Domain\obj\Debug\net8.0\CMS.Domain.sourcelink.json
+D:\work\Thiqah\CMSWebsite\CMS.Domain\obj\Debug\net8.0\CMS.Domain.dll
+D:\work\Thiqah\CMSWebsite\CMS.Domain\obj\Debug\net8.0\refint\CMS.Domain.dll
+D:\work\Thiqah\CMSWebsite\CMS.Domain\obj\Debug\net8.0\CMS.Domain.pdb
+D:\work\Thiqah\CMSWebsite\CMS.Domain\obj\Debug\net8.0\ref\CMS.Domain.dll

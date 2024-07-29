@@ -610,11 +610,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\work\\Thiqah\\CMS\\CMS.Domain\\CMS.Domain.csproj",
+      "projectUniqueName": "D:\\work\\Thiqah\\CMSWebsite\\CMS.Domain\\CMS.Domain.csproj",
       "projectName": "CMS.Domain",
-      "projectPath": "D:\\work\\Thiqah\\CMS\\CMS.Domain\\CMS.Domain.csproj",
+      "projectPath": "D:\\work\\Thiqah\\CMSWebsite\\CMS.Domain\\CMS.Domain.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "D:\\work\\Thiqah\\CMS\\CMS.Domain\\obj\\",
+      "outputPath": "D:\\work\\Thiqah\\CMSWebsite\\CMS.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
