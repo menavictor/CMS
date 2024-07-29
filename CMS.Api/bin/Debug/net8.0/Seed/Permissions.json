@@ -1,0 +1,42 @@
+[
+  {
+    "Id": 1,
+    "NameAr": "اضافة",
+    "NameEn": "Add",
+    "IsDeleted": false,
+    "CreatedDate": "01/01/2023",
+    "ModifiedDate": "01/01/2023",
+    "CreatedById": 1,
+    "Code": "ADD"
+  },
+  {
+    "Id": 2,
+    "NameAr": "تعديل",
+    "NameEn": "Edit",
+    "IsDeleted": false,
+    "CreatedDate": "01/01/2023",
+    "ModifiedDate": "01/01/2023",
+    "CreatedById": 1,
+    "Code": "EDIT"
+  },
+  {
+    "Id": 3,
+    "NameAr": "عرض",
+    "NameEn": "View",
+    "IsDeleted": false,
+    "CreatedDate": "01/01/2023",
+    "ModifiedDate": "01/01/2023",
+    "CreatedById": 1,
+    "Code": "VIEW"
+  },
+  {
+    "Id": 4,
+    "NameAr": "حذف",
+    "NameEn": "Delete",
+    "IsDeleted": false,
+    "CreatedDate": "01/01/2023",
+    "ModifiedDate": "01/01/2023",
+    "CreatedById": 1,
+    "Code": "DELETE"
+  }
+]
