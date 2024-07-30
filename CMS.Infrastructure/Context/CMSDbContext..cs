@@ -22,6 +22,8 @@ namespace CMS.Infrastructure.Context
 
         public virtual DbSet<Attachment> Attachments { get; set; }
         public virtual DbSet<File> Files { get; set; }
+        public virtual DbSet<GroupLevel> GroupLevels { get; set; }
+        public virtual DbSet<EmployeeGroupLevel> EmployeeGroupLevels { get; set; }
 
 
 

@@ -5,12 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Services\Business\**" />
-    <EmbeddedResource Remove="Services\Business\**" />
-    <None Remove="Services\Business\**" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\CMS.Common\CMS.Common.csproj" />
     <ProjectReference Include="..\CMS.Integration\CMS.Integration.csproj" />
   </ItemGroup>

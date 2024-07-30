@@ -116,6 +116,46 @@ namespace CMS.Infrastructure.Migrations
                     b.ToTable("Attachments");
                 });
 
+            modelBuilder.Entity("CMS.Domain.Entities.Business.EmployeeGroupLevel", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("CreatedById")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("EmployeeEmail")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("EmployeeId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("EmployeeName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid>("GroupLevelId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("ModifiedById")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("ModifiedDate")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("GroupLevelId");
+
+                    b.ToTable("EmployeeGroupLevels");
+                });
+
             modelBuilder.Entity("CMS.Domain.Entities.Business.File", b =>
                 {
                     b.Property<Guid>("Id")
@@ -167,6 +207,43 @@ namespace CMS.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Files");
+                });
+
+            modelBuilder.Entity("CMS.Domain.Entities.Business.GroupLevel", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("CreatedById")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("ModifiedById")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("ModifiedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<Guid?>("ParentId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ParentId");
+
+                    b.ToTable("GroupLevels");
                 });
 
             modelBuilder.Entity("CMS.Domain.Entities.Identity.Permission", b =>
@@ -364,7 +441,7 @@ namespace CMS.Infrastructure.Migrations
                             ModifiedDate = new DateTime(2021, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             NameAr = "مدير",
                             NameEn = "Admin",
-                            Password = "AAt6lt3ea6PlqI+TFJ+Au5TgWolD1T7WE2KksMuliCIn2i2Ic4LWKNe/+UJ7hiPl/Q==",
+                            Password = "ABf7YN3yiE9IGlocM6asUOWdFNKRp/wsSXBPJi0h4Jrq0ZXbyld1HMY3bkFg7Hme8w==",
                             Phone = "01016670280",
                             RoleId = 1,
                             UserName = "admin"
@@ -603,6 +680,26 @@ namespace CMS.Infrastructure.Migrations
                         });
                 });
 
+            modelBuilder.Entity("CMS.Domain.Entities.Business.EmployeeGroupLevel", b =>
+                {
+                    b.HasOne("CMS.Domain.Entities.Business.GroupLevel", "GroupLevel")
+                        .WithMany("EmployeeGroupLevels")
+                        .HasForeignKey("GroupLevelId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("GroupLevel");
+                });
+
+            modelBuilder.Entity("CMS.Domain.Entities.Business.GroupLevel", b =>
+                {
+                    b.HasOne("CMS.Domain.Entities.Business.GroupLevel", "Parent")
+                        .WithMany()
+                        .HasForeignKey("ParentId");
+
+                    b.Navigation("Parent");
+                });
+
             modelBuilder.Entity("CMS.Domain.Entities.Identity.User", b =>
                 {
                     b.HasOne("CMS.Domain.Entities.Identity.Role", "Role")
@@ -612,6 +709,11 @@ namespace CMS.Infrastructure.Migrations
                         .IsRequired();
 
                     b.Navigation("Role");
+                });
+
+            modelBuilder.Entity("CMS.Domain.Entities.Business.GroupLevel", b =>
+                {
+                    b.Navigation("EmployeeGroupLevels");
                 });
 
             modelBuilder.Entity("CMS.Domain.Entities.Identity.Role", b =>

@@ -6,13 +6,24 @@ namespace CMS.Application.Mapping
     {
         public MappingService()
         {
-            MapUser();
-            MapPermission();
+            #region Business
+            MapGroupLevel();
+            MapAttachment();
+            #endregion
+
+            #region Lookup
             MapAction();
             MapStatus();
             MapCategory();
-            MapAttachment();
+            #endregion
+            #region User
+            MapUser();
+            MapPermission();
+            #endregion
+            #region Common
             MapFile();
+            #endregion
+
         }
     }
 }

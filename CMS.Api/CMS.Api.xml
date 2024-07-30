@@ -74,6 +74,63 @@
             <param name="id">PK</param>
             <returns></returns>
         </member>
+        <member name="T:CMS.Api.Controllers.V1.Business.PackagesController">
+            <summary>
+            Packages Controller
+            </summary>
+        </member>
+        <member name="M:CMS.Api.Controllers.V1.Business.PackagesController.#ctor(CMS.Application.Services.Business.GroupLevel.IGroupLevelService)">
+            <summary>
+            Constructor
+            </summary>
+        </member>
+        <member name="M:CMS.Api.Controllers.V1.Business.PackagesController.GetAsync(System.Guid)">
+            <summary>
+            Get By Id 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.Api.Controllers.V1.Business.PackagesController.GetAllAsync">
+            <summary>
+            Get All 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.Api.Controllers.V1.Business.PackagesController.GetPagedAsync(CMS.Common.DTO.Base.BaseParam{CMS.Common.DTO.Business.GroupLevel.GroupLevelFilter})">
+            <summary>
+            GetAll Data paged
+            </summary>
+            <param name="filter">Filter responsible for search and sort</param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.Api.Controllers.V1.Business.PackagesController.AddAsync(CMS.Common.DTO.Business.GroupLevel.AddGroupLevel)">
+            <summary>
+            Add 
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.Api.Controllers.V1.Business.PackagesController.UpdateAsync(CMS.Common.DTO.Business.GroupLevel.AddGroupLevel)">
+            <summary>
+            Update  
+            </summary>
+            <param name="model">Object content</param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.Api.Controllers.V1.Business.PackagesController.DeleteAsync(System.Guid)">
+            <summary>
+            Remove  by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
+        <member name="M:CMS.Api.Controllers.V1.Business.PackagesController.DeleteSoftAsync(System.Guid)">
+            <summary>
+            logical delete by id
+            </summary>
+            <param name="id">PK</param>
+            <returns></returns>
+        </member>
         <member name="T:CMS.Api.Controllers.V1.Identity.AccountsController">
             <summary>
             Accounts Controller
