@@ -4,6 +4,7 @@ using CMS.Application.Services.Business.GroupLevel;
 using CMS.Common.Core;
 using CMS.Common.DTO.Base;
 using CMS.Common.DTO.Business.GroupLevel;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
@@ -15,13 +16,14 @@ namespace CMS.Api.Controllers.V1.Business
     /// </summary>
     [ApiVersion("1.0")]
     [Route("api/v{version:apiVersion}/[controller]")]
-    public class PackagesController : BaseController
+    [AllowAnonymous]
+    public class GroupLevelsController : BaseController
     {
         private readonly IGroupLevelService _groupLevelService;
         /// <summary>
         /// Constructor
         /// </summary>
-        public PackagesController(IGroupLevelService GroupLevelService)
+        public GroupLevelsController(IGroupLevelService GroupLevelService)
         {
             _groupLevelService = GroupLevelService;
         }
